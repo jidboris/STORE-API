@@ -18,21 +18,17 @@ price: {
 
 rating:{
   type: Number,
-  default: 4.5
-},
-
-createdAT: {
-  type: Date,
-  default: Date.now()
+  default: 4.5,
 },
 
 company: {
 type: String,
 enum: {
-  values: ['ikea', 'liddy', 'marcos', 'caresa'],
-  message: "{VALUE} is not supported"
+  values: ['sokoa', 'alaba', 'ibachi', 'filade'],
+  message: "{VALUE} is not supported",
 }
-}
-});
+}},
+{ timestamps: true },
+);
 
 module.exports = mongoose.model("Products", userSchema);
