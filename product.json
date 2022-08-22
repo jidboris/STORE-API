@@ -1,42 +1,45 @@
 [
-{ "name": "accent chair",
- "price": "40", 
- "company": "marcos",
- "rating": "4"
-},
-  {"name": "albany sectional",
-"price": 45,
-"company": "liddy",
-"rating": 4.6
-  }
-,
-{ "name": "arm chair",
-         "price": 15,
-         "company": "marcos",
-         "rating": 4.8
-},
-
-{   "name": "Dinning table", 
-    "price": 25,
-    "company": "ikea",
+  {
+    "name": "accent chair",
+    "price": 6000,
+    "company": "sokoa",
+    "rating": 4
+  },
+  {
+    "name": "couch",
+    "price": 5500,
+    "company": "alaba",
+    "rating": 4.6
+  },
+  {
+    "name": "arm chair",
+    "price": 2500,
+    "company": "sokoa",
+    "rating": 4.8
+  },
+  {
+    "name": "Dinning table",
+    "price": 8000,
+    "company": "ibachi",
     "rating": 4.5
-},
-{ "name": "bar stool", 
-         "price": 36,
-         "company": "liddy",
-         "rating": 4.6,
-         "featured": "true"
-},
-{
-  "name": "wooden table",
-  "price": 30,
-  "company": "caresa",
-  "rating": 4.3
-},
-{
-  "name": "second wooden table",
-  "price": 25,
-  "company": "caresa",
-  "rating": 4.3
-}
+  },
+  {
+    "name": "bar stool",
+    "price": 3600,
+    "company": "ibachi",
+    "rating": 4.6,
+    "featured": "true"
+  },
+  {
+    "name": "Bed table",
+    "price": 5800,
+    "company": "filade",
+    "rating": 4.3
+  },
+  {
+    "name": "tv stand",
+    "price": 4500,
+    "company": "filade",
+    "rating": 4.3
+  }
 ]
