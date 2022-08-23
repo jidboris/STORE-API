@@ -8,7 +8,7 @@ const product = await Products.find({})
  const count = await Products.countDocuments()
  res.status(200).json({
     Result: product,
-totalPage: Math.ceil(count/limit),
+totalPage: Math.ceil(count / limit),
 currentPage : page
 });
 }

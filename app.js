@@ -11,7 +11,7 @@ app.use(express.json());
 
 app.use('/api/v1/products', productsRoute);
 app.get('/', (req, res) => {
-    res.send('<h1>STORE API</h1> <a href = "/api/v1/products"> Product Route </a>')
+    res.send('<h1>STORE API</h1> <a href = "/api/v1/products"> find by filtering </a> </br> </br> <a href = "/api/v1/products/static"> find Pagination </a>')
 });
 
 app.use(notFoundMiddleware);
